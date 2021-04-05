@@ -28,3 +28,20 @@ now we initialize ech node by typing in:
 ./geth init yournetwrok.json --datadir node1
 do the same for node 2. And now we are almost done!
 
+Now its time to bring your block chain to life!
+with the two nodes your created one will be mining and the other will be a connection that helps you connect with apps like MyCrypto.
+now open your terminal agian and navigate to your designated network and type:
+./geth --datadir node1 --mine --minerthreads 1, this will set the first node as a mining node
+then copy the encode address after you press enter and run the code.
+now type:
+./geth --datadir node2 --port 30304 --rpc --botnodes "your encode address" --ipcdisable(if you are running on windows)
+
+Now head over to your MyCrypto and find the private key to your pre-funded address and save it for later.
+unlock your waller using the mnemonic phrase and then selesc the ETH you used that pre-funed the chain and on the dropdown list select wallet info.
+change the network to custom id and then fill in the necessary elements and then go ahead and process it.
+next go to the private key tab on the home page and unlock it. 
+After this you should see a huge change in your wallet!
+
+Now we can try go through a transaction ourselves. Copy the pre-funded address into the the address blank and enter a amount and then hit send transaction. Then click check tx status when you recieve the green message and when when your status says successful you know the transaction went through!!
+
+Congrats! You have gone through and have created your first transaction on your blockchain!

@@ -3,7 +3,9 @@
 Before starting we need to make sure that we have all our tools to create our network!
 
 First we'll need to install these necessary tools. On these websites you can look through and install the Mycrypto and Go ethereum. THese will help us create our blockchain! follow the steps on each website to fuly and correctly install each tool
+
 https://geth.ethereum.org/downloads/
+
 https://download.mycrypto.com/
 
 You remember that Go Ethereum tool you downloaded, now we are going to put it to use!
@@ -25,3 +27,4 @@ do the same for the second node but call it node2
 now we initialize ech node by typing in:
 ./geth init yournetwrok.json --datadir node1
 do the same for node 2. And now we are almost done!
+

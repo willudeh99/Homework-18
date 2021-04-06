@@ -13,6 +13,8 @@ the puppeth tool is somethong that was bundled to Go Ethereum when you downloade
 you can go to terminal(mac) or gitbash(windows) for the next steps.
 once in either of those you can type in the command ./puppeth, this should bring up a prompt.
 Once thats there go ahead and type in a name for your network and hit enter. After that press 2 to pick the configure genesis option  and then hit 1 on the next option to choose createnew genesis from scratch.
+![image](https://user-images.githubusercontent.com/71734654/113773831-1f821880-96ec-11eb-8d81-3c9ba5df68b3.png)
+
  
  now you want to choose 1 to pick proof of authority and then youll be aske if you want to pre-fund an account.
  this is 100% up to you. If you choose to type in an ethereum address without the 0x prefix and hit enter to continue
@@ -42,7 +44,10 @@ change the network to custom id and then fill in the necessary elements and then
 next go to the private key tab on the home page and unlock it. 
 After this you should see a huge change in your wallet!
 
+
 Now we can try go through a transaction ourselves. Copy the pre-funded address into the the address blank and enter a amount and then hit send transaction. Then click check tx status when you recieve the green message and when when your status says successful you know the transaction went through!!
+![image](https://user-images.githubusercontent.com/71734654/113774019-5c4e0f80-96ec-11eb-9a5e-d1b68c4f3f10.png)
+
 
 Congrats! You have gone through and have created your first transaction on your blockchain!
 ![image](https://user-images.githubusercontent.com/71734654/113773695-f6618800-96eb-11eb-8ee9-0fa9c259ed85.png)

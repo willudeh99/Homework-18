@@ -46,7 +46,9 @@ After this you should see a huge change in your wallet!
 
 
 Now we can try go through a transaction ourselves. Copy the pre-funded address into the the address blank and enter a amount and then hit send transaction. Then click check tx status when you recieve the green message and when when your status says successful you know the transaction went through!!
-![image](https://user-images.githubusercontent.com/71734654/113774019-5c4e0f80-96ec-11eb-9a5e-d1b68c4f3f10.png)
+
+![image](https://user-images.githubusercontent.com/71734654/113774116-7a1b7480-96ec-11eb-89b0-33b1b5277615.png)
+
 
 
 Congrats! You have gone through and have created your first transaction on your blockchain!
